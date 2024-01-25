@@ -3,7 +3,7 @@
 **Learning objective:** By the end of this lesson, students will be able to tktk
 
 
-Introduction to Web Applications: Start with a brief overview of what web applications are and how they have evolved over time. This sets the context for understanding SPAs.
+Introduction to Web Applications: Start with a brief overview of traditional server-side rendered web applications vs. front-end focused apps. This sets the context for understanding SPAs. Use Matt's example of mapquest vs google maps.
 
 What is a SPA?: Define SPAs in simple terms, focusing on how they differ from traditional multi-page applications. Use real-world examples if you can to illustrate these differences.
 
