@@ -1,1 +1,1 @@
-# ![[tktk Module Name]](../assets/hero.png)
+# ![Intro to SPAs](../assets/hero.png)
