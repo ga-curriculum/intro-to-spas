@@ -12,7 +12,7 @@ None
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [Concepts](./concepts/README.md)                               | -- | -- | tktk skills covered |
+| [What is a SPA?](./what-is-a-spa/README.md)                               | -- | -- | tktk skills covered |
 | [Benefits of SPAs](./benefits-of-spas/README.md) | -- | -- | tktk skills covered                    |
 | [Challenges of SPAs](./challenges-of-spas/README.md) | -- | -- | tktk skills covered                    |
 | **Total content**                                        | -- | -- |                                        |
