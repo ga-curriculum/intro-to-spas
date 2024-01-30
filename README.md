@@ -2,7 +2,7 @@
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+In this module, students will learn about Single-Page Applications (SPAs). They will learn about the benefits and challenges of SPAs, as well as the differences between traditional web applications and SPAs.
 
 ## Prerequisites
 
@@ -12,8 +12,8 @@ None
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [What is a SPA?](./what-is-a-spa/README.md)                               | -- | -- | tktk skills covered |
-| [Benefits of SPAs](./benefits-of-spas/README.md) | -- | -- | tktk skills covered                    |
+| [What is a SPA?](./what-is-a-spa/README.md)                               | -- | -- | Be able to discuss what a SPA is. |
+| [Benefits of SPAs](./benefits-of-spas/README.md) | -- | -- | Be able to discuss the benefits of a SPA. |
 | [Challenges of SPAs](./challenges-of-spas/README.md) | -- | -- | tktk skills covered                    |
 | **Total content**                                        | -- | -- |                                        |
 

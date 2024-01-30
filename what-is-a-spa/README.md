@@ -1,14 +1,35 @@
 # ![Intro to SPAs - What is a SPA?](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** By the end of this lesson, students will be able to discuss the difference between traditional web applications and single-page applications.
 
+## Application Architecture
 
-Introduction to Web Applications: Start with a brief overview of traditional server-side rendered web applications vs. front-end focused apps. This sets the context for understanding SPAs. Use Matt's example of mapquest vs google maps.
+Before diving into what a Single-Page Application (SPA) is, let's take a step back and discuss how web applications are traditionally built. Traditionally, web applications were often implemented as multiple-page applications (MPAs). When a user navigates to a new page, clicks a link, or submits a form, the application sends a new HTML page to the browser. This was the standard way of building web applications for many years.
 
-What is a SPA?: Define SPAs in simple terms, focusing on how they differ from traditional multi-page applications. Use real-world examples if you can to illustrate these differences.
+Let's take this into the real world for a minute. Think of a to-do application. In a traditional web application, when you add a new to-do item, the application sends a request to the server, and the server processes the request and sends back a new HTML page with the updated to-do list. This is how traditional web applications work.
 
-Notes for module:
+This approach has some limitations. For example, it can be slow to load new pages, especially on slow internet connections. It also requires a lot of back-and-forth communication between the browser and the server, which can be inefficient. Overall, this could be a better user experience.
 
-Audience Consideration: This lesson will be async reading material, aim for clarity and conciseness. Use layman's terms as much as possible to ensure it's accessible to beginners.
+tktk Hunter - Can we do an example of a to-do application that is a traditional web application. idk maybe like a flow chart almost. User adds a to-do -> send that request to a server -> server sends html page -> html page replaces the old page. The goal is to show that the whole page is getting reloaded.
 
-Technology Agnostic: Ensure examples and explanations do not favor any specific SPA framework but rather explain concepts applicable to any such framework.
+## Single-Page Applications Architecture
+
+Single-Page Applications (SPAs) are a different approach to building web applications. In an SPA, the browser loads a single HTML page, and the application updates the page dynamically as the user interacts with it. This means that the user can navigate to different parts of the application without the need to load a new page from the server.
+
+Going back to our to-do application example, in a SPA, when you add a new to-do item, we still send the request to the server, but instead of relying on the server to send back a new HTML page, the application updates the page dynamically to show the new to-do item. So, instead of reloading every item on the page, we just add or change what we need. This is a much faster and more efficient way of working.
+
+SPAs have become increasingly popular in recent years; some of the most popular web applications are SPAs. For example, Google Maps, Gmail, and Facebook are all SPAs.
+
+tktk Hunter - Same idea as above, but this time in the SPA format. User adds a to-do -> send that request to a server -> server sends back JSON -> application adds just the new to-do element without page reload. The goal is to show that only the part of the page that needs to be updated is getting updated. For both of these images, I trust whatever you think of :)
+
+## Traditional Web Applications (Mulitple-Page Applications) vs Single-Page Applications
+
+| Traditional Web Applications | Single-Page Applications |
+| ---------------------------- | ------------------------ |
+| Application sends new HTML page with each request | Application sends JSON with each request |
+| Pages can be easily bookmarked and shared | Users navigate to a page through actions |
+| Each page has its own url and HTML file | Application has a single url and HTML file |
+
+There are some pros and cons to both approaches. Traditional web applications are more accessible to build and maintain but can be slow and inefficient. Single-page applications are faster and more efficient but can be more complex to develop and maintain.
+
+> HTML and JSON are the most common formats for sending data from a server to a client; however, they are not the only formats. Many other formats exist, such as XML and CSV. The key takeaway is that a traditional web application sends a whole new page with each request, and a single-page application only sends the needed data, regardless of the format.
