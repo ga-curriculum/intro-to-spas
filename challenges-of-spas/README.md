@@ -1,3 +1,5 @@
+# ![Intro to SPAs - Challenges of SPAs](./assets/hero.png)
+
 **Learning objective:** By the end of this lesson, students will be able to discuss the challenges of Single-Page Applications (SPAs)
 
 ## Challenges of SPAs
