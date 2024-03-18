@@ -1,4 +1,4 @@
-# ![Intro to SPAs](./assets/tktk-hero.png)
+# ![Intro to Single-Page Applications](./assets/hero.png)
 
 ## About
 
@@ -12,7 +12,7 @@ None
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [What is a SPA?](./what-is-a-spa/README.md)               | -- | -- | Be able to discuss what a SPA is.         |
+| [Concepts](./concepts/README.md)               | -- | -- | Be able to discuss what a SPA is.         |
 | [Benefits of SPAs](./benefits-of-spas/README.md)          | -- | -- | Be able to discuss the benefits of a SPA. |
 | [Challenges of SPAs](./challenges-of-spas/README.md)      | -- | -- | tktk skills covered                       |
 | **Total content**                                         | -- | -- |                                           |

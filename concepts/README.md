@@ -1,4 +1,4 @@
-# ![Intro to SPAs - What is a SPA?](./assets/hero.png)
+# ![Intro to SPAs - Concepts](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to discuss the difference between traditional web applications and single-page applications.
 
@@ -10,7 +10,7 @@ Let's take this into the real world for a minute. Think of a to-do application. 
 
 This approach has some limitations. For example, it can be slow to load new pages, especially on slow internet connections. It also requires a lot of back-and-forth communication between the browser and the server, which can be inefficient. Overall, this could be a better user experience.
 
-tktk Hunter - Can we do an example of a to-do application that is a traditional web application. idk maybe like a flow chart almost. User adds a to-do -> send that request to a server -> server sends html page -> html page replaces the old page. The goal is to show that the whole page is getting reloaded.
+![Traditional web app](./assets/twa.png)
 
 ## Single-Page Applications Architecture
 
@@ -20,9 +20,11 @@ Going back to our to-do application example, in a SPA, when you add a new to-do 
 
 SPAs have become increasingly popular in recent years; some of the most popular web applications are SPAs. For example, Google Maps, Gmail, and Facebook are all SPAs.
 
-tktk Hunter - Same idea as above, but this time in the SPA format. User adds a to-do -> send that request to a server -> server sends back JSON -> application adds just the new to-do element without page reload. The goal is to show that only the part of the page that needs to be updated is getting updated. For both of these images, I trust whatever you think of :)
+![Single-page app](./assets/spa.png)
 
 ## Traditional Web Applications (Mulitple-Page Applications) vs Single-Page Applications
+
+![Single-page app vs. Mulitple-Page Applications](./assets/spa-twa-banner.png)
 
 | Traditional Web Applications | Single-Page Applications |
 | ---------------------------- | ------------------------ |
