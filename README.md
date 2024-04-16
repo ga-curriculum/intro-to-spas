@@ -12,7 +12,9 @@ None
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [Concepts](./concepts/README.md)               | -- | -- | Be able to discuss what a SPA is.         |
+| [Concepts](./concepts/README.md)                               | -- | -- | Be able to discuss what a SPA is.         |
+| [Core Technologies](./core-technologies/README.md)             | -- | -- | tktk |
+| [Comparing SPAs and MPAs](./comparing-spas-and-mpas/README.md) | -- | -- | tktk |
 | [Benefits of SPAs](./benefits-of-spas/README.md)          | -- | -- | Be able to discuss the benefits of a SPA. |
 | [Challenges of SPAs](./challenges-of-spas/README.md)      | -- | -- | tktk skills covered                       |
 | **Total content**                                         | -- | -- |                                           |

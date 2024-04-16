@@ -2,36 +2,45 @@
 
 **Learning objective:** By the end of this lesson, students will be able to discuss the difference between traditional web applications and single-page applications.
 
-## Application Architecture
+## What is a single-page application?
 
-Before diving into what a Single-Page Application (SPA) is, let's take a step back and discuss how web applications are traditionally built. Traditionally, web applications were often implemented as multiple-page applications (MPAs). When a user navigates to a new page, clicks a link, or submits a form, the application sends a new HTML page to the browser. This was the standard way of building web applications for many years.
+In the past, all web apps were built as MPAs or multiple-page applications. MPAs work by sending a brand new HTML page each time a user navigates around the app. For example, when a user clicks a link or submits a form, the server responds with a new HTML page for the browser to display to the user. The old HTML page is discarded.
 
-Let's take this into the real world for a minute. Think of a to-do application. In a traditional web application, when you add a new to-do item, the application sends a request to the server, and the server processes the request and sends back a new HTML page with the updated to-do list. This is how traditional web applications work.
-
-This approach has some limitations. For example, it can be slow to load new pages, especially on slow internet connections. It also requires a lot of back-and-forth communication between the browser and the server, which can be inefficient. Overall, this could be a better user experience.
+tktk Hunter, in this asset can we replace "A user submits a new todo" with "A user submits a form"
 
 ![Traditional web app](./assets/twa.png)
 
-## Single-Page Applications Architecture
+Single-page applications or SPAs are a different approach to building web applications.
 
-Single-Page Applications (SPAs) are a different approach to building web applications. In an SPA, the browser loads a single HTML page, and the application updates the page dynamically as the user interacts with it. This means that the user can navigate to different parts of the application without the need to load a new page from the server.
+SPAs still have links and forms, but when users interact with them, the back-end server replies with raw data (often in [JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON) format) or only the relevant HTML that needs to change. The old HTML page is retained, and changes to that page are made dynamically. All the updates are performed on the client-side.
 
-Going back to our to-do application example, in a SPA, when you add a new to-do item, we still send the request to the server, but instead of relying on the server to send back a new HTML page, the application updates the page dynamically to show the new to-do item. So, instead of reloading every item on the page, we just add or change what we need. This is a much faster and more efficient way of working.
+This means that the user can navigate to different parts of the application without the need to load a new page from the server.
 
-SPAs have become increasingly popular in recent years; some of the most popular web applications are SPAs. For example, Google Maps, Gmail, and Facebook are all SPAs.
+tktk Hunter, in this asset can we replace "A user submits a new to-do" with "A user submits a form"
 
 ![Single-page app](./assets/spa.png)
 
-## Traditional Web Applications (Mulitple-Page Applications) vs Single-Page Applications
+## Why single-page applications?
 
-![Single-page app vs. Mulitple-Page Applications](./assets/spa-twa-banner.png)
+![Downloads of React and Angular through time on npm](./assets/react-angular-npm.png)
 
-| Traditional Web Applications | Single-Page Applications |
-| ---------------------------- | ------------------------ |
-| Application sends new HTML page with each request | Application sends JSON with each request |
-| Pages can be easily bookmarked and shared | Users navigate to a page through actions |
-| Each page has its own url and HTML file | Application has a single url and HTML file |
+SPAs have become increasingly popular in recent years. You can see this reflected in the chart above, which shows downloads of Angular and React - which are widely used to build SPAs. Several factors have driven this evolution:
 
-There are some pros and cons to both approaches. Traditional web applications are more accessible to build and maintain but can be slow and inefficient. Single-page applications are faster and more efficient but can be more complex to develop and maintain.
+- **User expectations**: Users want to use web apps that behave more like native desktop/mobile applications than traditional web apps. A SPA can better approximate how a native app works than an MPA can.
+- **Technology advancements**: Building SPAs is easier today than it's ever been. Early SPAs were built with custom JavaScript code, but today, frameworks and libraries, such as React, Angular, and Vue.js, exist to help develop SPAs.
+- **Developer experience**: Developers can often implement more advanced features more easily in SPAs than in MPAs.
+- **Organization efficiencies**: SPAs enable specific teams in an organization to take ownership of smaller components of a larger application. This division of work allows for more efficient collaboration, as it requires less effort to integrate the work of multiple teams into a cohesive application. SPAs facilitate effective teamwork and remove some common pain points from app development.
 
-> HTML and JSON are the most common formats for sending data from a server to a client; however, they are not the only formats. Many other formats exist, such as XML and CSV. The key takeaway is that a traditional web application sends a whole new page with each request, and a single-page application only sends the needed data, regardless of the format.
+## Real-world SPAs
+
+SPAs are used in many popular websites and applications. Some examples of widely used SPAs include:
+
+- Google Maps
+- Facebook
+- LinkedIn
+- Netflix
+- GitHub
+- Amazon
+- Airbnb
+
+These examples demonstrate the wide range of applications that can benefit from using SPAs. Using SPAs, these websites enhance the user experience by dynamically updating content within a single web page, eliminating the need for full-page reloads and providing a smoother, more responsive interaction with the application. This architecture aims to create a more app-like feel, improving efficiency and reducing latency in web applications.
