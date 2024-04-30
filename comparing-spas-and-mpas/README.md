@@ -1,7 +1,5 @@
 # ![Intro to SPAs - Comparing SPAs and MPAs](./assets/hero.png)
 
-tktk Hunter this hero needs updated
-
 **Learning objective:** By the end of this lesson, students will be able to discuss some of the differences between SPAs and MPAs.
 
 ## Advantages of SPAs over MPAs

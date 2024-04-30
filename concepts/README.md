@@ -6,8 +6,6 @@
 
 In the past, all web apps were built as MPAs or multiple-page applications. MPAs work by sending a brand new HTML page each time a user navigates around the app. For example, when a user clicks a link or submits a form, the server responds with a new HTML page for the browser to display to the user. The old HTML page is discarded.
 
-tktk Hunter, in this asset can we replace "A user submits a new todo" with "A user submits a form"
-
 ![Traditional web app](./assets/twa.png)
 
 Single-page applications or SPAs are a different approach to building web applications.
@@ -15,8 +13,6 @@ Single-page applications or SPAs are a different approach to building web applic
 SPAs still have links and forms, but when users interact with them, the back-end server replies with raw data (often in [JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON) format) or only the relevant HTML that needs to change. The old HTML page is retained, and changes to that page are made dynamically. All the updates are performed on the client-side.
 
 This means that the user can navigate to different parts of the application without the need to load a new page from the server.
-
-tktk Hunter, in this asset can we replace "A user submits a new to-do" with "A user submits a form"
 
 ![Single-page app](./assets/spa.png)
 
