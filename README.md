@@ -2,7 +2,7 @@
 
 ## About
 
-In this module, students will learn about Single-Page Applications (SPAs). They will learn about the benefits and challenges of SPAs, as well as the differences between traditional web applications and SPAs.
+In this module, students will learn about single-page applications (SPAs). They will learn about the core technologies used to construct SPAs, as well as the differences between traditional multi-page web applications and SPAs.
 
 ## Prerequisites
 
@@ -12,12 +12,10 @@ None
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [Concepts](./concepts/README.md)                               | -- | -- | Be able to discuss what a SPA is.         |
-| [Core Technologies](./core-technologies/README.md)             | -- | -- | tktk |
-| [Comparing SPAs and MPAs](./comparing-spas-and-mpas/README.md) | -- | -- | tktk |
-| [Benefits of SPAs](./benefits-of-spas/README.md)          | -- | -- | Be able to discuss the benefits of a SPA. |
-| [Challenges of SPAs](./challenges-of-spas/README.md)      | -- | -- | tktk skills covered                       |
-| **Total content**                                         | -- | -- |                                           |
+| [Concepts](./concepts/README.md)                               | -- | -- | Be able to discuss what a SPA is.       |
+| [Core Technologies](./core-technologies/README.md)             | -- | -- | Discover the core technologies of SPAs. |
+| [Comparing SPAs and MPAs](./comparing-spas-and-mpas/README.md) | -- | -- | Compare and contrast SPAs to MPAs.      |
+| **Total content**                                              | -- | -- |                                         |
 
 ## References
 
