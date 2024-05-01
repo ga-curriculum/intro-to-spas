@@ -18,9 +18,9 @@ There are advantages beyond this though:
 
 While there are many advantages that come with SPAs, some features are more difficult to implement, and some concerns come into play:
 
-- **Search Engine Optimization (SEO) Concerns:** Search engines traditionally rely on HTML content to crawl and index web pages. SPAs dynamically load content using JavaScript, making it challenging for search engines to index the content effectively.
-- **Initial Load Time:** SPAs often require a larger initial load time as all the necessary assets (HTML, CSS, JavaScript) are loaded at the beginning. This can lead to slower initial page rendering compared to traditional multi-page applications.
-- **Complex State Management:** As a SPA grows, managing the application's state becomes more complex. With multiple components and views, ensuring that the application behaves as expected and maintaining a consistent state across the application becomes more difficult.
-- **Accessibility:** Some of a SPA's core features (dynamically updating content using JavaScript, URLs not updated server-side, etc.) pose challenges when implementing accessibility features.
+- **Search Engine Optimization (SEO) Concerns**: Search engines traditionally rely on HTML content to crawl and index web pages. SPAs dynamically load content using JavaScript, making it challenging for search engines to index the content effectively.
+- **Initial Load Time**: SPAs often require a larger initial load time as all the necessary assets (HTML, CSS, JavaScript) are loaded at the beginning. This can lead to slower initial page rendering compared to traditional multi-page applications.
+- **Complex State Management**: As a SPA grows, managing the application's state becomes more complex. With multiple components and views, ensuring that the application behaves as expected and maintaining a consistent state across the application becomes more difficult.
+- **Accessibility**: Some of a SPA's core features (dynamically updating content using JavaScript, URLs not updated server-side, etc.) pose challenges when implementing accessibility features.
 
 Workarounds for many of these problems exist, and for many applications, the advantages of SPAs will outweigh the downsides. That said, a nuanced approach should be taken when deciding if an application should be built as a SPA or an MPA.
