@@ -6,12 +6,11 @@ In this module, students will learn about single-page applications (SPAs). They 
 
 ## Content
 
-| Lesson | Video Time | Video | Skills |
-| ------ |:----------:|:-----:| ------ |
-| [Concepts](../concepts/README.md)                               | -- | -- | Be able to discuss what a SPA is.       |
-| [Core Technologies](../core-technologies/README.md)             | -- | -- | Discover the core technologies of SPAs. |
-| [Comparing SPAs and MPAs](../comparing-spas-and-mpas/README.md) | -- | -- | Compare and contrast SPAs to MPAs.      |
-| **Total content**                                               | -- | -- |                                         |
+| Lesson | Skills |
+| ------ | ------ |
+| [Concepts](../concepts/README.md)                               | Be able to discuss what a SPA is.       |
+| [Core Technologies](../core-technologies/README.md)             | Discover the core technologies of SPAs. |
+| [Comparing SPAs and MPAs](../comparing-spas-and-mpas/README.md) | Compare and contrast SPAs to MPAs.      |
 
 ## References
 
