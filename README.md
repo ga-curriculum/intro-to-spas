@@ -12,10 +12,10 @@ None
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [Concepts](./concepts/README.md)                               | -- | -- | Be able to discuss what a SPA is.       |
-| [Core Technologies](./core-technologies/README.md)             | -- | -- | Discover the core technologies of SPAs. |
-| [Comparing SPAs and MPAs](./comparing-spas-and-mpas/README.md) | -- | -- | Compare and contrast SPAs to MPAs.      |
-| **Total content**                                              | -- | -- |                                         |
+| [Concepts](./concepts/README.md)                               |  4 min | [link](https://generalassembly.wistia.com/medias/r1ewcwpva4) | Be able to discuss what a SPA is.       |
+| [Core Technologies](./core-technologies/README.md)             | 13 min | [link](https://generalassembly.wistia.com/medias/cjqbucygal) | Discover the core technologies of SPAs. |
+| [Comparing SPAs and MPAs](./comparing-spas-and-mpas/README.md) |  4 min | [link](https://generalassembly.wistia.com/medias/1v6phuzs0o) | Compare and contrast SPAs to MPAs.      |
+| **Total content**                                              | 21 min | --                                                           |                                         |
 
 ## References
 
