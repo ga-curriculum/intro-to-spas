@@ -19,4 +19,4 @@ In this module, students will learn about single-page applications (SPAs). They 
 
 ## References
 
-📖 [Reference Materials](./references/README.md)
+📖 [Reference Materials](../references/README.md)
