@@ -1,12 +1,11 @@
-# ![Intro to Single-Page Applications](./assets/hero.png)
+<h1>
+  <span class="prefix"></span>
+  <span class="headline">Intro to SPAs</span>
+</h1>
 
 ## About
 
 In this module, students will learn about single-page applications (SPAs). They will learn about the core technologies used to construct SPAs, as well as the differences between traditional multi-page web applications and SPAs.
-
-## Prerequisites
-
-None
 
 ## Content
 
@@ -21,7 +20,19 @@ None
 
 📖 [Reference Materials](./references/README.md)
 
-## Internal resources
+## Internal
+
+### Prerequisites
+
+- None.
+
+### Course landing pages
+
+- [RDS - React Development Short Course](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-spas/canvas-landing-pages/rds.html)
+- [SEB - Software Engineering Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-spas/canvas-landing-pages/seb.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-spas/canvas-landing-pages/fallback.html)
+
+### Resources
 
 ✏️ [Instructor Guide](./internal-resources/instructor-guide.md)
 
@@ -31,4 +42,4 @@ None
 
 ---
 
-**Find a 👾 bug 👾 or have suggestions? [Let us know](https://git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/blob/main/module-feedback.md)!**
+**Find a 👾 bug 👾 or have suggestions? [Let us know](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/module-feedback.html)!**

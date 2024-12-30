@@ -1,4 +1,7 @@
-# ![Intro to SPAs - Comparing SPAs and MPAs](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to SPAs</span>
+  <span class="subhead">Comparing SPAs and MPAs</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to discuss some of the differences between SPAs and MPAs.
 

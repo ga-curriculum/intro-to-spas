@@ -1,4 +1,7 @@
-# ![Intro to SPAs - Core Technologies](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to SPAs</span>
+  <span class="subhead">Core Technologies</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to identify the core technologies that enable the construction of SPAs.
 

@@ -1,0 +1,25 @@
+import "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/static/v2/pkl/template.pkl" as Template
+
+// Add microlessons here, in the order they should be delivered
+
+concepts = new Template.Microlesson {
+  friendlyName = "Concepts"
+  dirName = "concepts"
+  type = "Content"
+  videoUrl = "https://generalassembly.wistia.com/medias/r1ewcwpva4"
+}
+
+coreTechnologies = new Template.Microlesson {
+  friendlyName = "Core Technologies"
+  dirName = "core-technologies"
+  type = "Content"
+  videoUrl = "https://generalassembly.wistia.com/medias/cjqbucygal"
+}
+
+comparingSpasAndMpas = new Template.Microlesson {
+  friendlyName = "Comparing SPAs and MPAs"
+  dirName = "comparing-spas-and-mpas"
+  type = "Content"
+  videoUrl = "https://generalassembly.wistia.com/medias/1v6phuzs0o"
+}
+

@@ -1,4 +1,7 @@
-# ![Intro to Single-Page Applications](../assets/hero.png)
+<h1>
+  <span class="prefix"></span>
+  <span class="headline">Intro to SPAs</span>
+</h1>
 
 ## About
 
